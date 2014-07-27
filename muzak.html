@@ -1,0 +1,52 @@
+<html>
+
+<head>
+
+	<title>muzak</title>
+
+	<link rel="stylesheet" type="text/css" href="./style.css" />
+	<script src="./muzak.js"></script>
+	<script src="./lib/file_system.js"></script>
+
+</head>
+
+<body>
+
+	<div class="head">
+		<div class="drag" onmouseup="calc_metrics();">
+		</div>
+		<div class="window-controls">
+			<div class="min" id="min">-</div>
+			<div class="max" id="maximise">=</div>
+			<div class="close" id="close">x</div>
+		</div>
+	</div>
+
+	<div class="side">
+		<div class="art"></div>
+	</div>
+
+	<div class="main" id="main">
+		<div class="album"></div>
+		<div class="tracks"></div>
+	</div>
+
+	<div class="tail">
+		<div class="playback-order">
+		</div>
+		<div class="playback-time">
+			<audio controls>
+			<source src="c:\dev\i_.wav" type="audio/wav">
+			Problem rendering audio
+			</audio>
+		</div>
+		<div class="playback-controls">
+		</div>
+		<div class="heart">
+		</div>
+	</div>
+
+
+</body>
+
+</html>
